@@ -1,0 +1,8 @@
+# SQL
+
+CREATE DATABASE testdb;
+CREATE TABLE data_nama (
+ id tinyint primary key auto_increment,
+ nama varchar(40) not null,
+ alamat varchar(50)
+) ENGINE=InnoDB;

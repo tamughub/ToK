@@ -1,0 +1,13 @@
+# app\controllers\SiteController.php
+
+public function actionHello () {
+  return $this->render('hello');
+}
+
+# app\views\site\hello.php
+
+Bebas isinya.
+<br />
+<?php
+echo Yii::$app->name;
+?>
